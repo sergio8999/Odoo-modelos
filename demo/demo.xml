@@ -1,0 +1,102 @@
+<odoo>
+    <data>
+<!--
+          <record id="object0" model="odoo644.odoo644">
+            <field name="name">Object 0</field>
+            <field name="value">0</field>
+          </record>
+
+          <record id="object1" model="odoo644.odoo644">
+            <field name="name">Object 1</field>
+            <field name="value">10</field>
+          </record>
+
+          <record id="object2" model="odoo644.odoo644">
+            <field name="name">Object 2</field>
+            <field name="value">20</field>
+          </record>
+
+          <record id="object3" model="odoo644.odoo644">
+            <field name="name">Object 3</field>
+            <field name="value">30</field>
+          </record>
+
+          <record id="object4" model="odoo644.odoo644">
+            <field name="name">Object 4</field>
+            <field name="value">40</field>
+          </record>
+-->
+        <record id="object0" model="odoo644.pelicula">
+            <field name="name">1</field>
+            <field name="titulo">Capitán America: El primer vengador</field>
+            <field name="director">Joe Johnston</field>
+            <field name="fecha">2011-07-19</field>
+            <field name="calificacion">8.7</field>
+          </record>
+
+        <record id="object1" model="odoo644.pelicula">
+            <field name="name">2</field>
+            <field name="titulo">Vengdores: Endgame</field>
+            <field name="director">Anthony Russo, Joe Russo</field>
+            <field name="fecha">2011-04-22</field>
+            <field name="calificacion">9</field>
+          </record>
+
+        <record id="object2" model="odoo644.pelicula">
+            <field name="name">3</field>
+            <field name="titulo">Iron man</field>
+            <field name="director">Jon Favreau</field>
+            <field name="fecha">2008-04-30</field>
+            <field name="calificacion">7.9</field>
+        </record>
+
+        <record id="object3" model="odoo644.director">
+            <field name="name">1</field>
+            <field name="nombre">Joe Johnston</field>
+            <field name="pais">USA</field>
+            <field name="pelicula">Capitán America: El primer vengador</field>
+            <field name="fechaNacimiento">1950-05-13</field>
+        </record>
+
+        <record id="object4" model="odoo644.director">
+            <field name="name">2</field>
+            <field name="nombre">Anthony Russo</field>
+            <field name="pais">USA</field>
+            <field name="pelicula">Vengdores: Endgame</field>
+            <field name="fechaNacimiento">1970-02-03</field>
+        </record>
+
+        <record id="object5" model="odoo644.director">
+            <field name="name">3</field>
+            <field name="nombre">Jon Favreau</field>
+            <field name="pais">USA</field>
+            <field name="pelicula">Iron man</field>
+            <field name="fechaNacimiento">1966-10-19</field>
+        </record>
+
+        <record id="object6" model="odoo644.actor">
+            <field name="name">1</field>
+            <field name="nombre">Chris Evans</field>
+            <field name="pais">USA</field>
+            <field name="pelicula">Capitán America: El primer vengador</field>
+            <field name="fechaNacimiento">1981-06-13</field>
+        </record>
+
+        <record id="object7" model="odoo644.actor">
+            <field name="name">2</field>
+            <field name="nombre">Mark Alan Ruffalo</field>
+            <field name="pais">USA</field>
+            <field name="pelicula">Vengdores: Endgame</field>
+            <field name="fechaNacimiento">1967-11-22</field>
+        </record>
+
+        <record id="object8" model="odoo644.actor">
+            <field name="name">3</field>
+            <field name="nombre">Robert John Downey Jr</field>
+            <field name="pais">USA</field>
+            <field name="pelicula">Iron man</field>
+            <field name="fechaNacimiento">1965-04-04</field>
+        </record>
+
+    </data>
+</odoo>
